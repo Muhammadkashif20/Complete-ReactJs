@@ -18,7 +18,7 @@ const ManageStates = () => {
             setCar(CarState=>{
                 return{...CarState,color:'Black'}
             })
-        }
+        }   
   return (
     <div>
       <h1 className="text-center text-2xl font-bold my-5">Managing Hook UseState with {name}</h1>

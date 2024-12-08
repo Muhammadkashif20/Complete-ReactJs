@@ -1,10 +1,14 @@
 import React from 'react'
 import ManageStates from './Components/ManagingStates'
+import ManagingEffects from './Components/ManagingEffects'
+import GameOfProps from './Components/GameOfProps'
 
-const App = () => {
+const App = ({color}) => {
   return (
     <div>
-      <ManageStates/>
+      {/* <ManageStates/> */}
+      <ManagingEffects/>
+      <GameOfProps color={"navy"}/>
     </div>
   )
 }
